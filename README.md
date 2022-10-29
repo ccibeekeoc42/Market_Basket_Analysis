@@ -2,10 +2,6 @@
 
 In this repo, we will explore the applications of Market Basket Analysis in calculating the similarities between items in a grocery shopping dataset. Please enjot!
 
-# Basic_Logistic_Regression
-
-This repo explores the basics of Logistic Regression algorithm from scratch. Enjoy!
-
 ### Software, Tools, and prerequisits
 
 1. Access to Google Colab or some Jupyter Notebook.
@@ -28,3 +24,11 @@ Some key terms in the Associative Rule are Support, Confidence, and lift. Below 
 $$Support = \frac{frq(X,Y)}{N} $$
 $$Confidence = \frac{frq(X,Y)}{frq(X)} $$
 $$Lift = \frac{Support}{Supp(X) \* Supp(Y)} $$
+
+### Steps to completing the project
+
+1. Import the necessary modules/ packages needed for this project.
+2. Load and Prepare the dataset (this involves ensuring no null values).
+3. Visualize the dataset by plotting the top 10 most bought items.
+4. Prime the data for modelling.
+5. Use the Apyori package for the Assosiative Rule calculation.
